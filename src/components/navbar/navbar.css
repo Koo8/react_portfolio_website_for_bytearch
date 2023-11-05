@@ -1,0 +1,164 @@
+.nav {
+    width: 100vw;
+    height: 4rem;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: rgb(30,30,30);
+    
+}
+
+.logo {
+    object-fit: cover;
+    width:8rem; 
+}
+
+.menus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.desktopmenuitem {
+    margin: 1rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap:3px;
+
+}
+
+/* .desktopmenuitem:hover {
+    color: yellow;
+    border-bottom: 3px solid yellow;
+    padding-bottom: 3px;
+
+} */
+.desktopmenuitem:hover .bottomborder {
+    display: block;
+}
+.bottomborder {
+    width: 50%;
+    height: 2px;
+    border-bottom: 2px solid var(--highlight);
+    margin: 0 auto;
+    display: none;
+}
+
+
+.contactIcon {
+    width: 1rem;
+    object-fit: cover;
+}
+
+.contactBTN-desktop {
+    background-color: white;
+    display: flex;
+    cursor: pointer;   
+    align-items: center;
+    justify-content: space-between; 
+    gap:.5rem;
+    padding: 0 1rem;
+    border-radius: 2rem;
+    border: none;
+}
+
+.contactBTN-desktop:hover {
+    background-color: var(--highlight);
+}
+
+.contactBTN-desktop .active {
+    background-color: var(--highlight);
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap:.2rem;
+    cursor: pointer;
+}
+
+.crossmode#one, 
+.crossmode#three {
+    background-color: red;
+}
+.crossmode#two {
+    background-color: transparent;
+}
+
+.crossmode#one {
+    transform: rotate(45deg) translateY(100%) translateX(6px);
+}
+.crossmode#three {
+    transform: rotate(-45deg) translateY(-100%) translateX(6px);
+}
+
+.line, .crossmode {
+
+    width: 1.5rem;
+    height: .3rem;
+    background-color: white;
+    transition: all 1s ease-in-out;}
+
+.mobilemenus  {
+
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    width: 10rem;
+    height: fit-content;
+    background-color: rgb(40,40,40);
+    display: none;
+    flex-direction: column;
+    gap: .5rem;
+    position: absolute;
+    top: 3rem;
+    right: 1rem;
+    transform: translateX(300%);
+    transition: all 1s ease-in-out;
+}
+
+.mobilemenus.showmenu {
+    display: flex;
+    transform: translateX(0);
+}
+
+
+.mobilemenuitem {
+    cursor: pointer;
+    transition-duration: 1s;
+
+}
+
+.mobilemenuitem:hover {
+    transform:translateX(.5rem);
+}
+
+@media screen and (max-width: 720px) {
+    .contactBTN-desktop {
+        display: none;
+    }
+    .menus {
+         display: none;
+    }
+    
+    .hamburger {
+        display: flex;
+    }
+
+}
+@media screen and (min-width: 720px) {
+    .mobilemenus.showmenu{
+        display: none;
+    }
+}
+
+.active {
+    color:var(--highlight)
+}

@@ -1,0 +1,28 @@
+
+
+.projectshowcase {
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    gap:1rem;
+    flex-wrap: wrap;
+}
+
+.projectphoto {
+    width: 8rem;
+    object-fit: cover;
+    height:10rem ;
+    border-radius: .5rem;
+}
+/* 
+@media screen and (max-width: 680px) and (min-width: 540px) {
+    .projectphoto {
+        width: 6rem;
+    }
+}
+@media  screen and (max-width: 540px) {
+    .projectshowcase {
+        justify-content: space-around;
+    }
+} */

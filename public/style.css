@@ -1,0 +1,20 @@
+* {
+    background: transparent; /* everything can have its own background*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(30, 30, 30);
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll; /* make y scrollable */
+}
+
+:root {
+    --highlight: rgb(174, 226, 5);
+    --logo_color: rgb(150,143, 173);
+}

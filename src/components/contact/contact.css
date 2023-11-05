@@ -1,0 +1,100 @@
+.myform {
+    margin: 3rem auto ;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 90%;
+    max-width: 45rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.name, .email, .msg, .submit {
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    padding: .5rem;
+    margin: .5rem;
+    color: white;
+    resize: none;
+    background-color: rgb(40,40,40);
+    border-radius: .5rem;
+    transition-duration: 2s;
+
+}
+.submit:hover {
+    background-color: white;
+    color: rgb(40,40,40);
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto
+    
+}
+
+.link {
+    height: 3rem;
+    object-fit: cover;
+    margin: 0 0.5rem;
+    transition-duration: 1s;
+}
+.link:hover {
+    transform: translateY(-15%);
+}
+.banner {
+    font-size: .5rem;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding-left: 1rem;
+    width: 10rem;
+    height: 2rem;
+    overflow: hidden;
+    background-color: var(--logo_color);
+    /* add background opacity */
+    position: fixed;
+    bottom: 1rem;
+    right: 0rem;
+    /* add animation */
+    transform: translateX(100%);
+    transition-duration: 1s;
+   
+
+}
+.show {
+    transform: translateX(0);
+
+}
+  
+  @keyframes slide-left {
+    0% {
+      transform: translateX(0%);
+    }
+    40%{
+        transform: translateX(4rem);
+         /* animation-play-state: paused; */
+    }
+     65% {
+        transform: translateX(10rem);
+     }
+
+     80% {
+        transform:translateX(5rem);
+     }
+  
+    100% {
+      transform: translateX(0%);
+
+    }
+  }
+
+  @keyframes slide-right {
+    to {
+      transform:translateX(0);
+    }
+  }
