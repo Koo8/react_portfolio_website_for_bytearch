@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react_portfolio_website_for_bytearch/static/css/main.9950692d.css",
+    "main.js": "/react_portfolio_website_for_bytearch/static/js/main.12d57f0d.js",
+    "static/media/background-hero.jpg": "/react_portfolio_website_for_bytearch/static/media/background-hero.210df6d1c467f7e33d44.jpg",
+    "static/media/instagram.png": "/react_portfolio_website_for_bytearch/static/media/instagram.8e408da00539cdef4629.png",
+    "static/media/stockphoto.jpg": "/react_portfolio_website_for_bytearch/static/media/stockphoto.45f23e0cad56a0b06fe2.jpg",
+    "static/media/bytearch_logo_1.png": "/react_portfolio_website_for_bytearch/static/media/bytearch_logo_1.639abe2a45ea9488c036.png",
+    "static/media/mobile.png": "/react_portfolio_website_for_bytearch/static/media/mobile.d0c24ef4fa5fe6f5155e.png",
+    "static/media/web_dev.png": "/react_portfolio_website_for_bytearch/static/media/web_dev.f9d169e80e84e333a6d1.png",
+    "static/media/twitter.png": "/react_portfolio_website_for_bytearch/static/media/twitter.c6e48e60f856cb822273.png",
+    "static/media/youtube.png": "/react_portfolio_website_for_bytearch/static/media/youtube.ee9f21489b0269aede6f.png",
+    "static/media/website.png": "/react_portfolio_website_for_bytearch/static/media/website.d88ec36c889ea5a99296.png",
+    "static/media/facebook.png": "/react_portfolio_website_for_bytearch/static/media/facebook.4f037d961598aff2a0a4.png",
+    "index.html": "/react_portfolio_website_for_bytearch/index.html",
+    "main.9950692d.css.map": "/react_portfolio_website_for_bytearch/static/css/main.9950692d.css.map",
+    "main.12d57f0d.js.map": "/react_portfolio_website_for_bytearch/static/js/main.12d57f0d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9950692d.css",
+    "static/js/main.12d57f0d.js"
+  ]
+}
